@@ -1,0 +1,25 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+public class Main {
+    public static void main(String[] args) {
+        
+        // Arreglo
+        int[] elementos = new int[]{1, 6, 8, 10, 22};
+        
+        System.out.println("Suma de todos los elementos del arreglo: " + sumArray(elementos));
+    }
+    
+    public static int sumArray(int[] arr){
+        
+        int suma = 0;
+        
+        // Ciclo 'For each'
+        for(int num : arr){
+            
+            suma += num;
+        }
+        
+        return suma;
+    }
+}
